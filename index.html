@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nabilah Ismah Wiananda | Portofolio</title>
+<meta name="description" content="Portofolio Nabilah Ismah Wiananda, mahasiswa Teknik Informatika Universitas Gunadarma di bidang data science dan machine learning.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="side-top">
+      <a class="mark" href="#home" aria-label="Beranda"><span>N</span><b>Nabilah<br>Ismah W.</b></a>
+      <button class="mini menu-btn" id="menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    </div>
+    <nav class="nav" id="nav" aria-label="Menu">
+      <a href="#home" data-i="n_home">Beranda</a>
+      <a href="#about" data-i="n_about">Tentang</a>
+      <a href="#skills" data-i="n_skills">Keahlian</a>
+      <a href="#projects" data-i="n_proj">Proyek</a>
+      <a href="#contact" data-i="n_contact">Kontak</a>
+      <div class="side-tools">
+        <button class="mini" id="lang" type="button" aria-label="Ganti bahasa">EN</button>
+        <button class="mini" id="theme" type="button" aria-label="Ganti tema">Tema</button>
+      </div>
+    </nav>
+    <p class="status"><i></i><span data-i="live">Terbuka untuk kolaborasi</span></p>
+  </aside>
+
+  <main class="main">
+    <section class="hero" id="home">
+      <p class="tag" data-i="eyebrow">Portofolio data &amp; machine learning 2026</p>
+      <h1>Nabilah Ismah <mark>Wiananda</mark></h1>
+      <p class="lead" data-i="lead">Mahasiswa S1 Teknik Informatika Universitas Gunadarma yang fokus pada pengolahan data, analisis data, dan machine learning.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects" data-i="cta1">Lihat Proyek Saya</a>
+        <a class="btn" href="#contact" data-i="cta2">Hubungi Saya</a>
+      </div>
+
+      <figure class="fig" aria-label="Hasil proyek unggulan">
+        <figcaption class="tag"><span>FIG. 1</span><span data-i="ro_l">Proyek unggulan · Penulisan Ilmiah</span></figcaption>
+        <h2 data-i="ro_t">Klasifikasi kejernihan air (jernih / keruh)</h2>
+        <div class="metric"><div class="metric-top"><span>CNN</span><b>91%</b></div><div class="track"><div class="fill" style="width:91%"></div></div></div>
+        <div class="metric"><div class="metric-top"><span>Hybrid CNN + Random Forest</span><b>96%</b></div><div class="track"><div class="fill hl" style="width:96%"></div></div>
+          <div class="scale"><span>0%</span><span data-i="ro_a">akurasi data uji</span><span>100%</span></div></div>
+      </figure>
+    </section>
+
+    <section class="block" id="about">
+      <p class="tag" data-i="about_l">Tentang saya</p>
+      <h2 class="title" data-i="about_t">Belajar dari data, tumbuh lewat proyek</h2>
+      <div class="cols">
+        <p data-i="about1">Saya mahasiswa Teknik Informatika yang sedang mengembangkan kemampuan di bidang pengolahan data, analisis data, dan machine learning.</p>
+        <p data-i="about2">Saya senang mempelajari hal baru dan berkembang lewat proyek serta pengalaman kerja. Saya paling tertarik menerapkan data dan machine learning pada masalah nyata di sekitar kita.</p>
+      </div>
+      <dl class="figures">
+        <div><dt data-i="st1">Semester</dt><dd>7</dd></div>
+        <div><dt data-i="st2">Akurasi model PI</dt><dd>96%</dd></div>
+        <div><dt data-i="st3">Citra dataset</dt><dd>1.000</dd></div>
+      </dl>
+      <ol class="ledger">
+        <li><span class="when">2022 – <span data-i="now">Sekarang</span></span>
+          <div><h3 data-i="tl1_t">S1 Teknik Informatika</h3><p class="org">Universitas Gunadarma</p><p data-i="tl1_p">Mata kuliah seputar basis data, rekayasa perangkat lunak, analisis dan perancangan sistem, serta analisis data. Sedang di semester 7.</p></div></li>
+        <li><span class="when">Lab</span>
+          <div><h3>DGX Practicum Lab Assistant</h3><p class="org">Universitas Gunadarma</p><p data-i="tl2_p">Mendampingi mahasiswa selama sesi praktikum laboratorium, membantu mengerjakan latihan teknis dan memahami materi kuliah.</p></div></li>
+        <li><span class="when">PI</span>
+          <div><h3 data-i="tl3_t">Penulisan Ilmiah: Klasifikasi Kejernihan Air</h3><p class="org" data-i="tl3_m">Proyek akhir · Hybrid CNN + Random Forest</p><p data-i="tl3_p">Membangun, menguji, dan mendeploy model klasifikasi citra air dengan Streamlit, lalu menulis laporan penelitiannya.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="block" id="skills">
+      <p class="tag" data-i="sk_l">Keahlian</p>
+      <h2 class="title" data-i="sk_t">Perangkat yang saya pakai</h2>
+      <dl class="skills">
+        <div><dt data-i="sk1">Machine Learning</dt><dd>CNN untuk klasifikasi citra<span>Random Forest</span><span>Augmentasi data</span><span>Tuning hyperparameter</span></dd></div>
+        <div><dt data-i="sk2">Analisis Data</dt><dd>Python<span>Eksplorasi &amp; pembersihan data</span><span>Visualisasi data</span><span>SQL</span></dd></div>
+        <div><dt data-i="sk3">Tools &amp; Deployment</dt><dd>Jupyter &amp; Kaggle<span>Streamlit</span><span>Black-box testing</span></dd></div>
+        <div><dt data-i="sk4">Sistem &amp; Dokumentasi</dt><dd>UML &amp; PlantUML<span>QFD &amp; UAT</span><span>Penulisan ilmiah &amp; laporan teknis</span></dd></div>
+      </dl>
+    </section>
+
+    <section class="block" id="projects">
+      <p class="tag" data-i="pr_l">Proyek</p>
+      <h2 class="title" data-i="pr_t">Karya terpilih</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter proyek"></div>
+      <div class="plist" id="proj-grid"></div>
+    </section>
+
+    <section class="block" id="contact">
+      <p class="tag" data-i="ct_l">Kontak</p>
+      <h2 class="title" data-i="ct_t">Mari bekerja sama</h2>
+      <p class="sub" data-i="ct_p">Saya tersedia untuk magang, proyek freelance, dan kerja remote di bidang data dan teknologi.</p>
+      <div class="rows">
+        <div class="row"><span class="tag">Email</span><span class="val" id="email-val"></span><button class="mini" id="copy-email" type="button" data-i="copy">Salin</button></div>
+        <div class="row"><span class="tag">LinkedIn</span><a class="val" id="li-val" target="_blank" rel="noopener"></a><span></span></div>
+        <div class="row"><span class="tag">GitHub</span><a class="val" id="gh-val" target="_blank" rel="noopener"></a><span></span></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="yr">2026</span> Nabilah Ismah Wiananda</span>
+      <span data-i="foot">Teknik Informatika, Universitas Gunadarma</span>
+    </footer>
+  </main>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="sheet-wrap">
+    <button class="mini close" id="m-close" type="button" data-i="close">Tutup</button>
+    <div class="sheet" id="sheet"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
