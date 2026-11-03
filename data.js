@@ -1,6 +1,6 @@
-/* DATA PORTOFOLIO: edit file ini untuk mengganti kontak, teks, dan proyek. */
-/* Ganti dengan kontak asli. */
-var CONTACT = { email: "your.email@example.com", linkedin: "https://www.linkedin.com/in/your-profile", github: "https://github.com/your-username" };
+/* DATA PORTOFOLIO: */
+
+var CONTACT = { email: "wiaanda09@gmail.com", linkedin: "www.linkedin.com/in/nabilawiaanda", github: "https://github.com/nblaawiaa" };
 
 var T = {
   id: {
